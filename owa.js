@@ -10,7 +10,7 @@ $(document).ready(function(){
 		if(city != '')
 		{
 			$.ajax({
-				url:"http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric"+"&APPID=4210ca092af7d0ee10fd1fb2a6d9c676",
+				url:"https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric"+"&APPID=4210ca092af7d0ee10fd1fb2a6d9c676",
 				type:"get",
 				datatype:"jsonp",
 				success: function(data){
