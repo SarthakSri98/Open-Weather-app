@@ -1,0 +1,36 @@
+body{
+	background-image: url(images/Starfall.jpg);
+	background-size: cover;
+
+}
+input{
+	height: 55px;
+	border-radius: 10px;
+	border:1px black solid;
+    text-align: center;
+
+}
+.btn{
+	height: 55px;
+}
+h1{
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+	font-size: 85px;
+	padding-top: 40px;
+}
+.city{
+	text-align: center;
+	position: relative;
+	top:50%;
+	margin-bottom: -50%;
+	font-family: 'Macondo', cursive;
+	font-weight: bold;
+	margin-top:5%;
+}
+#show{
+	margin-top: 16px;
+	font-family: 'Lobster Two', cursive;
+	z-index: 1;
+	font-size: 30px;
+}
