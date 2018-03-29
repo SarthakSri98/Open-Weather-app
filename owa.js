@@ -16,7 +16,7 @@ $(document).ready(function(){
 				success: function(data){
 					var widgets = show(data);
                     $('#show').html(widgets);
-                    city='';
+                    $('#city').val('');
 				}
 			});
 		}
