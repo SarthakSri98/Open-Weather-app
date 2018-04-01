@@ -11,7 +11,7 @@ $(document).ready(function(){             //the code written below will run only
 		if(city != '')
 		{                      //the ajax  request part will start here.
 			$.ajax({
-				url:"https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric"+"&APPID=4210ca092af7d0ee10fd1fb2a6d9c676",
+				url:"https://crossorigin.me/https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric"+"&APPID=4210ca092af7d0ee10fd1fb2a6d9c676",
 				type:"get",
 				datatype:"jsonp",
 				success: function(data){
